@@ -67,6 +67,7 @@ public class STAFFLogin extends JFrame implements ActionListener{
        login.setBackground(new Color(29,75,100));
        login.setForeground(Color.WHITE);
        login.setBorder(new LineBorder(new Color(29,75,100)));
+       login.setCursor(new Cursor(Cursor.HAND_CURSOR));
        login.addActionListener(this);
        jpanel2.add(login);
        
@@ -76,6 +77,7 @@ public class STAFFLogin extends JFrame implements ActionListener{
        back.setBackground(new Color(29,75,100));
        back.setForeground(Color.WHITE);
        back.setBorder(new LineBorder(new Color(29,75,100)));
+       back.setCursor(new Cursor(Cursor.HAND_CURSOR));
        back.addActionListener(this);
        jpanel2.add(back);
     

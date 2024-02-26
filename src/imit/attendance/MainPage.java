@@ -13,9 +13,10 @@ public class MainPage extends JFrame implements ActionListener {
     MainPage(){
         setLayout(null);
         getContentPane().setBackground(new Color(29, 59, 85));
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
 
         JPanel header = new JPanel();
-        header.setBounds(0,0, 1550, 150);
+        header.setBounds(0,0, 1600, 150);
         header.setBackground(new Color(29, 59, 85));
         header.setLayout(null);
         add(header);
@@ -153,8 +154,9 @@ public class MainPage extends JFrame implements ActionListener {
         attendance = new JButton("Attendance");
         attendance.setBackground(new Color(29,75,100));
         attendance.setForeground(new Color(34, 150, 255));
-        attendance.addActionListener(this);
         attendance.setBounds(20, 710, 180, 30);
+        attendance.addActionListener(this);
+        attendance.setCursor(new Cursor(Cursor.HAND_CURSOR));
         add(attendance);
 
         JPanel footer  = new JPanel();

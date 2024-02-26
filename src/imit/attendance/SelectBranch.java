@@ -13,7 +13,7 @@ public class SelectBranch extends JFrame implements ActionListener{
     SelectBranch(){
        
        setSize(500, 500);
-       setLocation(350, 200);
+       setLocation(550, 200);
        setLayout(null);
        
        getContentPane().setBackground(new Color(29,59,85));
